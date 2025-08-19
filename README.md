@@ -47,8 +47,8 @@ img {
 }
 </style>
 
-# [Your Name]'s Portfolio
-Welcome to my digital portfolio! Here you'll find a collection of my favorite projects, research, and creative work. Each project represents my passion for [your field/interests] and showcases my skills in [your skills].
+# Alexander Steffen's Portfolio
+Welcome to my digital portfolio! Here you'll find a collection of my favorite projects, research, and creative work. Each project represents my passion for engineering and showcases my skills.
 
 ## Featured Projects
 ### [Project Title 1](link-to-project) : Brief Description of Project
@@ -80,15 +80,6 @@ Description of a physical computing or hardware project, including your design p
 
 ![Project Photo](assets/images/project4-photo.jpg)
 
-## Workshops & Talks
-
-### [Workshop Title]
-Brief description of a workshop you've given or participated in, including the date and venue.
-
-## Tutorials & Guides
-
-### [Tutorial Title]
-Description of a tutorial you've created, including the technologies covered and the target audience.
 
 ---
 
