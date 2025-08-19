@@ -1,5 +1,69 @@
 # Zando777.github.io
 Whats going on in my workshop!
 
-AHHHH HELP ME NOOOOO HELP
-<img width="554" height="554" alt="image" src="https://github.com/user-attachments/assets/bcb854ec-388e-4f31-b954-6127f7448474" />
+---
+layout: default
+title: Home
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    body { max-width: 900px; margin: auto; padding: 2rem; }
+    header { text-align: center; margin-bottom: 2rem; }
+    section { margin: 3rem 0; }
+    img.placeholder { width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    footer { text-align: center; margin-top: 4rem; font-size: 0.9em; color: #666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alex – Mechatronics Engineer</h1>
+    <p>📧 <a href="mailto:alex@example.com">alex@example.com</a> | 🌐 <a href="https://github.com/yourusername">GitHub</a></p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Short intro about who you are, your interests, and what you work on. Replace this text later.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Project One</h3>
+        <img src="https://via.placeholder.com/400x200" alt="Project One Screenshot" class="placeholder">
+        <p>Brief description of Project One. Replace this placeholder with actual content.</p>
+      </article>
+      <article>
+        <h3>Project Two</h3>
+        <img src="https://via.placeholder.com/400x200" alt="Project Two Screenshot" class="placeholder">
+        <p>Brief description of Project Two. Replace this placeholder with actual content.</p>
+      </article>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+        <img src="https://via.placeholder.com/300x200" alt="Gallery item 1" class="placeholder">
+        <img src="https://via.placeholder.com/300x200" alt="Gallery item 2" class="placeholder">
+        <img src="https://via.placeholder.com/300x200" alt="Gallery item 3" class="placeholder">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you'd like to collaborate or reach out, contact me at <a href="mailto:alex@example.com">alex@example.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© {{ site.time | date: '%Y' }} Alex. Built with GitHub Pages + Jekyll.</p>
+  </footer>
+</body>
+</html>
