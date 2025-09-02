@@ -25,6 +25,7 @@
       "description": "For my final year dissertation, I tackled one of the biggest challenges in modern aerospace manufacturing: how to get fleets of autonomous mobile robots working together to transport massive aerostructures. Partnering with Airbus and the Advanced Manufacturing Research Centre (AMRC), I designed and implemented a novel peer-to-peer relative positioning system using only low-cost 2D LiDAR sensors—eliminating the need for expensive infrastructure or heavy computation. My system, built on ROS, Gazebo, and Python, enabled robots to identify each other, coordinate in formation, and navigate dynamic, obstacle-filled environments with centimetre-level accuracy. Tested in both simulation and on Clearpath Dingo robots, the work demonstrated a scalable and flexible solution that paves the way for Airbus to boost aircraft production efficiency through smarter, more adaptable automation.",
       "assets": {
         "images": [
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/MMRs for Aerostructure Transportation/images/15.jpg",
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/MMRs for Aerostructure Transportation/images/2.png",
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/MMRs for Aerostructure Transportation/images/1.png",
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/MMRs for Aerostructure Transportation/images/3 copy.jpg",
@@ -39,7 +40,6 @@
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/MMRs for Aerostructure Transportation/images/12.png",
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/MMRs for Aerostructure Transportation/images/13.png",
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/MMRs for Aerostructure Transportation/images/14 copy.jpg"
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/MMRs for Aerostructure Transportation/images/15.jpg"
         ],
         "videos": [],
         "cad": []
