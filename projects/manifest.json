@@ -1,56 +1,22 @@
 {
   "projects": [
     {
-      "title": "Autonomous Mobile Drawing Robot Group Project",
-      "slug": "Autonomous Mobile Drawing Robot Group Project",
-      "description": "As part of a university module challenge, I worked in a team of four to design and build a mobile manipulator under strict resource constraints, limited to a £50 budget and a defined set of components. Our solution was a mecanum-wheeled robot equipped with a 3-DOF arm, ultrasonic sensors, and line-following sensors, enabling it to autonomously navigate through gates, follow a track, and precisely draw a cross on a whiteboard.\n\nDespite the tight limitations, we delivered the fastest, most repeatable, and most reliable robot in our cohort—and even outperformed previous years’ teams tackling the same challenge. The robot consistently executed the full brief with complete autonomy, showcasing not only robust design but also strong teamwork, problem-solving, and optimization under constraints.",
+      "title": "6DOF AMR Test Platform",
+      "slug": "6DOF AMR Test Platform",
+      "description": "This project explores the development of an intelligent Autonomous Mobile Robot (AMR) equipped with a 6-degree-of-freedom robotic arm, capable of navigating and interacting with both the environment and a user through verbal commands. The idea is to have a helper robot to assist with retrieving and delivering tools to me when I'm working underneath my car. The platform integrates 2D LiDAR and camera-based perception for object detection and environmental awareness.\n\nThe rover's drive system repurposes motors from hoverboards, with STM32-based ESCs re-flashed to accept control commands from an Arduino (or equivalent) using the SimpleFOC library to achieve precise closed-loop motor control. Custom mecanum wheels replace standard tires to enable omnidirectional movement.\n\nI have begun the CAD design of the robot, as well as the design of a custom stepper driver board, including end-stop and encoder integration, Bluetooth and Wi-Fi connectivity, and power step-down circuitry. On the software side, I have deployed YOLO object recognition on a Raspberry Pi 5 and am working to integrate voice command comprehension through a large language model. The complete system is planned to operate under ROS 2 to unify perception, control, and motion planning. This project is ongoing and was started in August 2025.",
       "assets": {
         "images": [
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/1.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/2.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/3.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/4.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/5.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/6.JPG",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/7.JPG",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/8.JPG",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/9.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/10.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/11.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/12.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/13.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/14.png"
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/images/1.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/images/2.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/images/3.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/images/4.webp",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/images/5.jpg"
         ],
-        "videos": [
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/videos/Mechatronics .mp4"
-        ],
+        "videos": [],
         "cad": [
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/cad/Mechatronics robot for web viewing.mtl",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/cad/Mechatronics robot for web viewing.obj"
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/cad/6DOF AMR Test Platform.mtl",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/cad/6DOF AMR Test Platform.obj"
         ]
-      }
-    },
-    {
-      "title": "FPV Drones",
-      "slug": "FPV Drones",
-      "description": "I've spent most of my life immersed in the world of FPV drones—an obsession that started when I built my first quadcopter at 13. From that shaky maiden flight (captured on video as both the first and last flight of that airframe) to designing, building, and tuning high-performance racing drones and cinematic rigs, I've continuously pushed the limits of what's possible with custom UAVs. Over the years, I've refined my skills in electronics, aerodynamics, radio systems, and flight control tuning, mastering the balance between raw speed, precision handling, and silky-smooth cinematic capture. Whether ripping through racetracks at high-G turns or choreographing aerial shots that feel like they belong in a film, FPV drones have been my testbed for engineering creativity, hands-on problem solving, and precision piloting—skills that directly fuel my approach to robotics and automation today.",
-      "assets": {
-        "images": [
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_4037.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7287.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7345.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7348.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7350.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7353.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7354.jpg", 
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7355.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7356.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7357.jpg"
-        ],
-        "videos": [
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/videos/trimmed_maiden.mp4"
-        ],
-        "cad": []
       }
     },
     {
@@ -132,24 +98,36 @@
       }
     },
     {
-      "title": "6DOF AMR Test Platform",
-      "slug": "6DOF AMR Test Platform",
-      "description": "This project explores the development of an intelligent Autonomous Mobile Robot (AMR) equipped with a 6-degree-of-freedom robotic arm, capable of navigating and interacting with both the environment and a user through verbal commands. The idea is to have a helper robot to assist with retrieving and delivering tools to me when I'm working underneath my car. The platform integrates 2D LiDAR and camera-based perception for object detection and environmental awareness.\n\nThe rover's drive system repurposes motors from hoverboards, with STM32-based ESCs re-flashed to accept control commands from an Arduino (or equivalent) using the SimpleFOC library to achieve precise closed-loop motor control. Custom mecanum wheels replace standard tires to enable omnidirectional movement.\n\nI have begun the CAD design of the robot, as well as the design of a custom stepper driver board, including end-stop and encoder integration, Bluetooth and Wi-Fi connectivity, and power step-down circuitry. On the software side, I have deployed YOLO object recognition on a Raspberry Pi 5 and am working to integrate voice command comprehension through a large language model. The complete system is planned to operate under ROS 2 to unify perception, control, and motion planning. This project is ongoing and was started in August 2025.",
+      "title": "Autonomous Mobile Drawing Robot Group Project",
+      "slug": "Autonomous Mobile Drawing Robot Group Project",
+      "description": "As part of a university module challenge, I worked in a team of four to design and build a mobile manipulator under strict resource constraints, limited to a £50 budget and a defined set of components. Our solution was a mecanum-wheeled robot equipped with a 3-DOF arm, ultrasonic sensors, and line-following sensors, enabling it to autonomously navigate through gates, follow a track, and precisely draw a cross on a whiteboard.\n\nDespite the tight limitations, we delivered the fastest, most repeatable, and most reliable robot in our cohort—and even outperformed previous years’ teams tackling the same challenge. The robot consistently executed the full brief with complete autonomy, showcasing not only robust design but also strong teamwork, problem-solving, and optimization under constraints.",
       "assets": {
         "images": [
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/images/1.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/images/2.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/images/3.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/images/4.webp",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/images/5.jpg"
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/1.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/2.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/3.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/4.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/5.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/6.JPG",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/7.JPG",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/8.JPG",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/9.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/10.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/11.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/12.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/13.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/images/14.png"
         ],
-        "videos": [],
+        "videos": [
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/videos/Mechatronics .mp4"
+        ],
         "cad": [
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/cad/6DOF AMR Test Platform.mtl",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/6DOF AMR Test Platform/cad/6DOF AMR Test Platform.obj"
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/cad/Mechatronics robot for web viewing.mtl",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Autonomous Mobile Drawing Robot Group Project/cad/Mechatronics robot for web viewing.obj"
         ]
       }
     },
+    
     {
       "title": "Robotic Quadruped Paw Force Sensing",
       "slug": "Robotic Quadruped Paw Force Sensing",
@@ -198,6 +176,29 @@
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Magnomatics - RVDT Circuit design/images/4.jpg"
         ],
         "videos": [],
+        "cad": []
+      }
+    },
+    {
+      "title": "FPV Drones",
+      "slug": "FPV Drones",
+      "description": "I've spent most of my life immersed in the world of FPV drones—an obsession that started when I built my first quadcopter at 13. From that shaky maiden flight (captured on video as both the first and last flight of that airframe) to designing, building, and tuning high-performance racing drones and cinematic rigs, I've continuously pushed the limits of what's possible with custom UAVs. Over the years, I've refined my skills in electronics, aerodynamics, radio systems, and flight control tuning, mastering the balance between raw speed, precision handling, and silky-smooth cinematic capture. Whether ripping through racetracks at high-G turns or choreographing aerial shots that feel like they belong in a film, FPV drones have been my testbed for engineering creativity, hands-on problem solving, and precision piloting—skills that directly fuel my approach to robotics and automation today.",
+      "assets": {
+        "images": [
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_4037.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7287.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7345.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7348.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7350.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7353.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7354.jpg", 
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7355.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7356.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/images/IMG_7357.jpg"
+        ],
+        "videos": [
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/FPV Drones/videos/trimmed_maiden.mp4"
+        ],
         "cad": []
       }
     },
