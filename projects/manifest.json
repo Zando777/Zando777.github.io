@@ -1,6 +1,6 @@
 {
   "projects": [
-    {
+        {
       "title": "6DOF AMR Test Platform",
       "slug": "6DOF AMR Test Platform",
       "description": "This project explores the development of an intelligent Autonomous Mobile Robot (AMR) equipped with a 6-degree-of-freedom robotic arm, capable of navigating and interacting with both the environment and a user through verbal commands. The idea is to have a helper robot to assist with retrieving and delivering tools to me when I'm working underneath my car. The platform integrates 2D LiDAR and camera-based perception for object detection and environmental awareness.\n\nThe rover's drive system repurposes motors from hoverboards, with STM32-based ESCs re-flashed to accept control commands from an Arduino (or equivalent) using the SimpleFOC library to achieve precise closed-loop motor control. Custom mecanum wheels replace standard tires to enable omnidirectional movement.\n\nI have begun the CAD design of the robot, as well as the design of a custom stepper driver board, including end-stop and encoder integration, Bluetooth and Wi-Fi connectivity, and power step-down circuitry. On the software side, I have deployed YOLO object recognition on a Raspberry Pi 5 and am working to integrate voice command comprehension through a large language model. The complete system is planned to operate under ROS 2 to unify perception, control, and motion planning. This project is ongoing and was started in August 2025.",
@@ -62,28 +62,6 @@
       }
     },
     {
-      "title": "Project Falcon - Student Led Project",
-      "slug": "Project Falcon - Student Led Project",
-      "description": "This student-led project's focus was on developing a large proof of concept aircraft to test patent GB2554977, the efficacy of using a variable incidence wing mounted centrally on a quadcopter. The aim was to increase flight times to enable long range missions while retaining the extremely high maneuverability of a non-fixed wing multirotor. These dynamics would enable use cases in offshore wind, medical aid delivery, and military among many others. The team developed the airframe, wings, electronics and avionics, and control. My focus was on rapid actuation and control of the wing's incidence, and the wing incidence variance algorithm during flight (and accompanying programming).",
-      "assets": {
-        "images": [
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_rend2.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_group.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_imu.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_pat1.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_pat2.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_pat3.png",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_rend1.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_stuff.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_wing.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/IMG_8131 .jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Picture1.jpg"
-        ],
-        "videos": [],
-        "cad": []
-      }
-    },
-    {
       "title": "RL Solar Water Heating IoT System",
       "slug": "RL Solar Water Heating IoT System",
       "description": "This project is a solar water heating optimization system that combines IoT hardware with reinforcement learning to intelligently control water circulation between solar water panels and a water storage tank. Temperature sensors monitor the system's conditions, while an Arduino Mega handles data collection, water pump relay control, and temperature and pump status outputs on a screen. An ESP32 bridges the hardware to an MQTT broker running on a laptop, where Python scripts process sensor data and apply an RL agent that learns the most efficient pump operation strategies. By integrating external factors such as time of day and weather forecasts through APIs, the system not only reacts to current conditions but also anticipates changes, improving energy efficiency and maximizing the use of solar heating. A simulator/digital twin is being developed to allow testing and training the RL agent without hardware, accelerating development and ensuring robustness before real-world deployment. The aim here is to test the efficacy of a RL system on a graspable real world control problem and see if it can produce improved control methods, thus improving the energy harnessed from the sun and reducing pump power consumption.",
@@ -92,6 +70,22 @@
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/RL Solar Water Heating IoT System/images/3.jpeg",
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/RL Solar Water Heating IoT System/images/1.jpg",
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/RL Solar Water Heating IoT System/images/2.jpeg"
+        ],
+        "videos": [],
+        "cad": []
+      }
+    },
+    {
+      "title": "Robotic Quadruped Paw Force Sensing",
+      "slug": "Robotic Quadruped Paw Force Sensing",
+      "description": "I am fascinated by robotic quadrupeds, particularly in enabling natural and agile gaits. A key challenge I've identified in robot dogs is accurately quantifying the force on each foot, which is essential for tuning control systems to achieve running, jumping, and other dynamic motions.\n\nTo explore this problem without building a full robot dog—which requires twelve actuators (three per leg) and is prohibitively expensive—I developed a paw-level sensing prototype. I embedded a Hall effect sensor into a paw structure, with a flexible TPU \"paw pad\" containing a magnet that deflects under load toward the sensor. I characterized the system by correlating Hall effect readings with the applied force, measured using a scale and a leg stand, to understand the compression behavior of the TPU pad under load.\n\nThis work forms the foundation for future development, and once sufficient resources are available, I plan to integrate this sensing system into a full quadruped platform.",
+      "assets": {
+        "images": [
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Robotic Quadruped Paw Force Sensing/images/1 copy.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Robotic Quadruped Paw Force Sensing/images/2 copy.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Robotic Quadruped Paw Force Sensing/images/3 copy.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Robotic Quadruped Paw Force Sensing/images/4 copy.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Robotic Quadruped Paw Force Sensing/images/5 copy.jpg"
         ],
         "videos": [],
         "cad": []
@@ -127,23 +121,6 @@
         ]
       }
     },
-    
-    {
-      "title": "Robotic Quadruped Paw Force Sensing",
-      "slug": "Robotic Quadruped Paw Force Sensing",
-      "description": "I am fascinated by robotic quadrupeds, particularly in enabling natural and agile gaits. A key challenge I've identified in robot dogs is accurately quantifying the force on each foot, which is essential for tuning control systems to achieve running, jumping, and other dynamic motions.\n\nTo explore this problem without building a full robot dog—which requires twelve actuators (three per leg) and is prohibitively expensive—I developed a paw-level sensing prototype. I embedded a Hall effect sensor into a paw structure, with a flexible TPU \"paw pad\" containing a magnet that deflects under load toward the sensor. I characterized the system by correlating Hall effect readings with the applied force, measured using a scale and a leg stand, to understand the compression behavior of the TPU pad under load.\n\nThis work forms the foundation for future development, and once sufficient resources are available, I plan to integrate this sensing system into a full quadruped platform.",
-      "assets": {
-        "images": [
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Robotic Quadruped Paw Force Sensing/images/1 copy.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Robotic Quadruped Paw Force Sensing/images/2 copy.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Robotic Quadruped Paw Force Sensing/images/3 copy.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Robotic Quadruped Paw Force Sensing/images/4 copy.jpg",
-          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Robotic Quadruped Paw Force Sensing/images/5 copy.jpg"
-        ],
-        "videos": [],
-        "cad": []
-      }
-    },
     {
       "title": "Magnomatics - Wire Tensioning Rig",
       "slug": "Magnomatics - Wire Tensioning Rig",
@@ -174,6 +151,28 @@
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Magnomatics - RVDT Circuit design/images/2.jpg",
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Magnomatics - RVDT Circuit design/images/3.jpg",
           "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Magnomatics - RVDT Circuit design/images/4.jpg"
+        ],
+        "videos": [],
+        "cad": []
+      }
+    },
+    {
+      "title": "Project Falcon - Student Led Project",
+      "slug": "Project Falcon - Student Led Project",
+      "description": "This student-led project's focus was on developing a large proof of concept aircraft to test patent GB2554977, the efficacy of using a variable incidence wing mounted centrally on a quadcopter. The aim was to increase flight times to enable long range missions while retaining the extremely high maneuverability of a non-fixed wing multirotor. These dynamics would enable use cases in offshore wind, medical aid delivery, and military among many others. The team developed the airframe, wings, electronics and avionics, and control. My focus was on rapid actuation and control of the wing's incidence, and the wing incidence variance algorithm during flight (and accompanying programming).",
+      "assets": {
+        "images": [
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_rend2.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_group.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_imu.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_pat1.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_pat2.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_pat3.png",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_rend1.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_stuff.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Flacon_wing.jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/IMG_8131 .jpg",
+          "https://pub-e79ea034232e424ab9bd06e06778fe67.r2.dev/Project Falcon - Student Led Project/images/Picture1.jpg"
         ],
         "videos": [],
         "cad": []
